@@ -1,0 +1,85 @@
+[2017-02-19 20:02:19.389 GMT     6	INFO   	100000	AssemblyLoader.Client	]	Recursively searching for assemblies in c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug...	
+[2017-02-19 20:02:19.407 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\GrainInterfaces.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.408 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Grains.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.547 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.613 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.CodeAnalysis.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.615 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.618 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.627 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Newtonsoft.Json.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.629 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2017-02-19 20:02:19.630 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansCodeGenerator.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.633 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2017-02-19 20:02:19.641 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\System.Collections.Immutable.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.655 GMT     6	INFO   	100000	AssemblyLoader.Client	]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\System.Reflection.Metadata.dll
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:19.657 GMT     6	INFO   	100000	AssemblyLoader.Client	]	Loading assembly c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansProviders.dll...	
+[2017-02-19 20:02:19.669 GMT     6	INFO   	100000	AssemblyLoader.Client	]	1 assemblies loaded.	
+[2017-02-19 20:02:19.685 GMT     6	INFO   	100313	OutsideRuntimeClient	]	---------- Initializing OutsideRuntimeClient on bigmack-PC at 10.0.0.1 Client Id = *cli/a952009e ----------	
+[2017-02-19 20:02:19.698 GMT     6	INFO   	100314	OutsideRuntimeClient	]	---------- Starting OutsideRuntimeClient with runtime Version='1.3.0.0 (Release).' in AppDomain=<AppDomain.Id=1, AppDomain.FriendlyName=SiloHost1.vshost.exe> Config= 
+ Platform version info:
+   Orleans version: 1.3.0.0 (Release).
+   .NET version: 4.0.30319.42000
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.2.9200.0
+   GC Type=Server GCLatencyMode=Batch
+   Host: bigmack-PC
+   Processor Count: 8
+Client Configuration:
+   Config File Name: 
+   Start time: 2017-02-19 20:02:19.693 GMT
+   Gateway Provider: Config
+   Gateways[1]:
+      127.0.0.1:40000
+   Preferred Gateway Index: -1
+   GatewayListRefreshPeriod: 00:01:00
+   Preferred Address Family: InterNetwork
+   DNS Host Name: bigmack-PC
+   Client Name: Client
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Client-2017-02-19-20.02.18.554Z.log
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: -00:00:00.0010000
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+   Messaging:
+       Response timeout: 00:30:00
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Client Sender Buckets: 8192
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+   .NET: 
+       .NET thread pool sizes - Min: Worker Threads=200 Completion Port Threads=200
+       .NET thread pool sizes - Max: Worker Threads=32767 Completion Port Threads=1000
+   Providers:
+       No providers configured.
+	
+[2017-02-19 20:02:19.714 GMT     6	INFO   	101309	Messaging.GatewayManager	]	Found 1 knownGateways from Gateway listProvider [gwy.tcp://127.0.0.1:40000/0]	
+[2017-02-19 20:02:20.395 GMT     6	INFO   	100908	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0	10.0.0.1:0]	Connected to gateway at address gwy.tcp://127.0.0.1:40000/0 on trial 0.	
+[2017-02-19 20:02:20.401 GMT    39	INFO   	100000	Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0	10.0.0.1:0]	Starting AsyncAgent Messaging.GatewayClientReceiver/gwy.tcp://127.0.0.1:40000/0 on managed thread 39	
+[2017-02-19 20:02:20.401 GMT    38	INFO   	100000	Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0	10.0.0.1:0]	Starting AsyncAgent Messaging.GatewayConnection/GatewayClientSender_gwy.tcp://127.0.0.1:40000/0 on managed thread 38	
+[2017-02-19 20:02:20.551 GMT     6	INFO   	100929	OutsideRuntimeClient	10.0.0.1:0]	---------- Started OutsideRuntimeClient with Global Client ID: C10.0.0.1:0:-225230539*cli/a952009e@541ad6a2, client GUID ID: *cli/a952009e	

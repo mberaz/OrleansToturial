@@ -1,0 +1,6 @@
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\bin\Debug\GrainInterfaces.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\bin\Debug\GrainInterfaces.pdb
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\bin\Debug\Orleans.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\bin\Debug\Orleans.xml
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\obj\Debug\GrainInterfaces.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\GrainInterfaces\obj\Debug\GrainInterfaces.pdb

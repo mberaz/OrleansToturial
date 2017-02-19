@@ -1,0 +1,235 @@
+[2017-02-19 20:02:15.097 GMT    10	INFO   	100404	Silo	127.0.0.1:22222]	Silo starting with GC settings: ServerGC=True GCLatencyMode=Batch	
+[2017-02-19 20:02:15.108 GMT    10	INFO   	100403	Silo	127.0.0.1:22222]	-------------- Initializing Primary silo on host bigmack-PC MachineName BIGMACK-PC at 127.0.0.1:22222, gen 225230535 --------------	
+[2017-02-19 20:02:15.125 GMT    10	INFO   	100415	Silo	127.0.0.1:22222]	Starting silo bigmack-PC with the following configuration= 
+Config File Name: 
+Host: bigmack-PC
+Start time: 2017-02-19 20:02:15.109 GMT
+Primary node: 127.0.0.1:22222
+Platform version info:
+   Orleans version: 1.3.0.0 (Release).
+   .NET version: 4.0.30319.42000
+   Is .NET 4.5=True
+   OS version: Microsoft Windows NT 6.2.9200.0
+   GC Type=Server GCLatencyMode=Batch
+Global configuration:
+   System Ids:
+      ServiceId: 00000000-0000-0000-0000-000000000000
+      DeploymentId: 
+   Subnet: 
+   Seed nodes: 127.0.0.1:22222
+   Messaging:
+       Response timeout: 00:30:00
+       Maximum resend count: 0
+       Resend On Timeout: False
+       Maximum Socket Age: 10675199.02:48:05.4775807
+       Drop Expired Messages: True
+       Silo Sender queues: 8
+       Gateway Sender queues: 8
+       Client Drop Timeout: 00:01:00
+       Buffer Pool Buffer Size: 4096
+       Buffer Pool Max Size: 10000
+       Buffer Pool Preallocation Size: 250
+       Use Message Batching: False
+       Max Message Batching Size: 10
+       Maximum forward count: 2
+   Liveness:
+      LivenessEnabled: True
+      LivenessType: MembershipTableGrain
+      ProbeTimeout: 00:00:10
+      TableRefreshTimeout: 00:01:00
+      DeathVoteExpirationTimeout: 00:02:00
+      NumMissedProbesLimit: 3
+      NumProbedSilos: 3
+      NumVotesForDeathDeclaration: 2
+      UseLivenessGossip: True
+      ValidateInitialConnectivity: True
+      IAmAliveTablePublishTimeout: 00:05:00
+      NumMissedTableIAmAliveLimit: 2
+      MaxJoinAttemptTime: 00:05:00
+      ExpectedClusterSize: 20
+   MultiClusterNetwork: N/A
+   SystemStore:
+      SystemStore ConnectionString: null
+      Reminders ConnectionString: null
+   Application:
+      Defaults:
+         Deactivate if idle for: 02:00:00
+
+   PlacementStrategy: 
+         Default Placement Strategy: RandomPlacement
+         Deployment Load Publisher Refresh Time: 00:00:01
+         Activation CountBased Placement Choose Out Of: 2
+   Grain directory cache:
+      Maximum size: 1000000 grains
+      Initial TTL: 00:00:30
+      Maximum TTL: 00:04:00
+      TTL extension factor: 2.00
+      Directory Caching Strategy: Adaptive
+   Grain directory:
+      Lazy deregistration delay: 00:01:00
+      Client registration refresh: 00:05:00
+   Reminder Service:
+       ReminderServiceType: ReminderTableGrain
+   Consistent Ring:
+       Use Virtual Buckets Consistent Ring: True
+       Num Virtual Buckets Consistent Ring: 30
+   Providers:
+       StorageProviders:
+           Name=MemoryStore, Type=Orleans.Storage.MemoryStorage, Properties=[NumStorageGrains]
+
+Silo configuration:
+   Silo Name: bigmack-PC
+   Generation: 225230535
+   Host Name or IP Address: localhost
+   DNS Host Name: bigmack-PC
+   Port: 22222
+   Subnet: 
+   Preferred Address Family: InterNetwork
+   Proxy Gateway: 127.0.0.1:40000
+   IsPrimaryNode: True
+   Scheduler: 
+         Max Active Threads: 8
+         Processor Count: 8
+         Delay Warning Threshold: 00:00:10
+         Activation Scheduling Quantum: 00:00:00.1000000
+         Turn Warning Length Threshold: 00:00:00.2000000
+         Inject More Worker Threads: False
+         MinDotNetThreadPoolSize: 200
+         .NET thread pool sizes - Min: Worker Threads=8 Completion Port Threads=8
+         .NET thread pool sizes - Max: Worker Threads=32767 Completion Port Threads=1000
+         .NET ServicePointManager - DefaultConnectionLimit=200 Expect100Continue=False UseNagleAlgorithm=False
+   Load Shedding Enabled: False
+   Load Shedding Limit: 95
+   SiloShutdownEventName: 
+   Debug: 
+   Tracing: 
+     Default Trace Level: Info
+     TraceLevelOverrides: None
+     Trace to Console: True
+     Trace File Name: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\bigmack-PC-2017-02-19-20.02.14.040Z.log
+     LargeMessageWarningThreshold: 85000
+     PropagateActivityId: False
+     BulkMessageLimit: 5
+   Statistics: 
+     MetricsTableWriteInterval: 00:00:30
+     PerfCounterWriteInterval: 00:00:30
+     LogWriteInterval: 00:05:00
+     WriteLogStatisticsToTable: True
+     StatisticsCollectionLevel: Info
+
+	
+[2017-02-19 20:02:15.174 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Searching for assemblies in c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug...	
+[2017-02-19 20:02:15.191 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\GrainInterfaces.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.333 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.CodeAnalysis.CSharp.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.402 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.CodeAnalysis.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.405 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.408 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.418 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Newtonsoft.Json.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.421 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Orleans.dll
+	* Assembly filename is excluded.	
+[2017-02-19 20:02:15.422 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansCodeGenerator.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.426 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansRuntime.dll
+	* Assembly filename is excluded.	
+[2017-02-19 20:02:15.434 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\System.Collections.Immutable.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.449 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	User assembly ignored: c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\System.Reflection.Metadata.dll
+	* Assembly does not contain any acceptable grain types.
+	* Assembly contains no types assignable from Orleans.Providers.IProvider.	
+[2017-02-19 20:02:15.452 GMT    10	WARNING	101705	AssemblyLoader.Silo	127.0.0.1:22222]	Unable to find directory c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Applications; skipping.	
+[2017-02-19 20:02:15.453 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Loading assembly c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\Grains.dll...	
+[2017-02-19 20:02:15.470 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	Loading assembly c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\SiloHost1\bin\Debug\OrleansProviders.dll...	
+[2017-02-19 20:02:15.473 GMT    10	INFO   	100000	AssemblyLoader.Silo	127.0.0.1:22222]	2 assemblies loaded.	
+[2017-02-19 20:02:16.182 GMT    10	INFO   	100000	Scheduler.OrleansTaskScheduler	127.0.0.1:22222]	Starting OrleansTaskScheduler with 8 Max Active application Threads and 1 system thread.	
+[2017-02-19 20:02:16.201 GMT    10	INFO   	101010	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Opened a listening socket at address 127.0.0.1:22222	
+[2017-02-19 20:02:16.207 GMT    10	INFO   	101010	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Opened a listening socket at address 127.0.0.1:40000	
+[2017-02-19 20:02:16.223 GMT    10	INFO   	100000	VirtualBucketsRingProvider	127.0.0.1:22222]	Starting VirtualBucketsRingProvider on silo S127.0.0.1:22222:225230535/x58DC8821.	
+[2017-02-19 20:02:16.253 GMT    10	INFO   	103003	VirtualBucketsRingProvider	127.0.0.1:22222]	Added Server S127.0.0.1:22222:225230535/x58DC8821. Current view: [S127.0.0.1:22222:225230535 -> <MultiRange: Size=x100000000, %Ring=100.000%>]	
+[2017-02-19 20:02:16.256 GMT    10	INFO   	103005	VirtualBucketsRingProvider	127.0.0.1:22222]	-NotifyLocalRangeSubscribers about old <(0 0], Size=x100000000, %Ring=100.000%> new <MultiRange: Size=x100000000, %Ring=100.000%> increased? True	
+[2017-02-19 20:02:16.283 GMT    10	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Created	
+[2017-02-19 20:02:16.285 GMT    10	INFO   	100422	Silo	127.0.0.1:22222]	-------------- Started silo S127.0.0.1:22222:225230535, ConsistentHashCode 58DC8821 --------------	
+[2017-02-19 20:02:16.287 GMT    10	INFO   	100288	OrleansSiloHost	127.0.0.1:22222]	Successfully initialized Orleans silo 'bigmack-PC' as a Primary node.	
+[2017-02-19 20:02:16.289 GMT    10	INFO   	100441	OrleansSiloHost	127.0.0.1:22222]	Silo shutdown event name: bigmack-PC-Shutdown	
+[2017-02-19 20:02:16.290 GMT    10	INFO   	100442	OrleansSiloHost	127.0.0.1:22222]	Created and set shutdown event bigmack-PC-Shutdown	
+[2017-02-19 20:02:16.294 GMT    10	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Starting	
+[2017-02-19 20:02:16.296 GMT    10	INFO   	100401	Silo	127.0.0.1:22222]	Silo Start()	
+[2017-02-19 20:02:16.298 GMT    10	INFO   	100430	Silo	127.0.0.1:22222]	Configured ThreadPool.SetMinThreads() to values: 200,200. Previous values are: 8,8.	
+[2017-02-19 20:02:16.298 GMT    10	INFO   	100436	Silo	127.0.0.1:22222]	Configured .NET ServicePointManager to Expect100Continue=False, DefaultConnectionLimit=200, UseNagleAlgorithm=False to improve Azure storage performance.	
+[2017-02-19 20:02:16.348 GMT    10	INFO   	101711	AssemblyLoader.Silo	127.0.0.1:22222]	Loaded grain type summary for 7 types: 
+Grain class Grains.Grains.Grain1 [2126644329 (0x7EC20469)] from Grains.dll implementing interfaces: GrainInterfaces.GrainInterfaces.IGrain1 [1862408246 (0x6F021836)]
+Grain class Orleans.Providers.Orleans.Providers.MemoryStreamQueueGrain [1359359215 (0x51062CEF)] from OrleansProviders.dll implementing interfaces: Orleans.Providers.Orleans.Providers.IMemoryStreamQueueGrain [1158152105 (0x4507FFA9)]
+Grain class Orleans.Runtime.Management.Orleans.Runtime.Management.ManagementGrain [1954798034 (0x7483D9D2)] from OrleansRuntime.dll implementing interfaces: Orleans.Runtime.Orleans.Runtime.IManagementGrain [-1734666656 (0x989B1660)]
+Grain class Orleans.Runtime.MembershipService.Orleans.Runtime.MembershipService.GrainBasedMembershipTable [-2103923544 (0x8298ACA8)] from OrleansRuntime.dll implementing interfaces: Orleans.Orleans.IMembershipTableGrain [-1256503757 (0xB51B4633)]
+Grain class Orleans.Runtime.ReminderService.Orleans.Runtime.ReminderService.GrainBasedReminderTable [-55315191 (0xFCB3F509)] from OrleansRuntime.dll implementing interfaces: Orleans.Orleans.IReminderTableGrain [-1135060418 (0xBC585A3E)]
+Grain class Orleans.Storage.Orleans.Storage.MemoryStorageGrain [819348208 (0x30D642F0)] from OrleansRuntime.dll implementing interfaces: Orleans.Storage.Orleans.Storage.IMemoryStorageGrain [577125491 (0x22663C73)]
+Grain class Orleans.Streams.Orleans.Streams.PubSubRendezvousGrain [1903070868 (0x716E8E94)] from OrleansRuntime.dll implementing interfaces: Orleans.Streams.Orleans.Streams.IPubSubRendezvousGrain [1746702088 (0x681C8F08)]
+	
+[2017-02-19 20:02:16.416 GMT    17	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/3	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/3 on managed thread 17	
+[2017-02-19 20:02:16.394 GMT    22	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/System.9	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/System.9 on managed thread 22	
+[2017-02-19 20:02:16.394 GMT    15	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/1	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/1 on managed thread 15	
+[2017-02-19 20:02:16.394 GMT    16	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/2	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/2 on managed thread 16	
+[2017-02-19 20:02:16.416 GMT    18	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/4	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/4 on managed thread 18	
+[2017-02-19 20:02:16.460 GMT    20	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/6	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/6 on managed thread 20	
+[2017-02-19 20:02:16.438 GMT    19	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/5	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/5 on managed thread 19	
+[2017-02-19 20:02:16.483 GMT    21	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/7	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/7 on managed thread 21	
+[2017-02-19 20:02:16.536 GMT    25	INFO   	100000	Runtime.Messaging.SiloMessageSender/SystemSender	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/SystemSender on managed thread 25	
+[2017-02-19 20:02:16.586 GMT    10	INFO   	100000	Orleans.GrainDirectory.LocalGrainDirectory	127.0.0.1:22222]	Start (SeverityLevel=Info)	
+[2017-02-19 20:02:16.561 GMT    30	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/System	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/System on managed thread 30	
+[2017-02-19 20:02:16.507 GMT    23	INFO   	100000	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAcceptor on managed thread 23	
+[2017-02-19 20:02:16.561 GMT    31	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Ping	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Ping on managed thread 31	
+[2017-02-19 20:02:16.585 GMT    32	INFO   	100000	Runtime.Messaging.IncomingMessageAgent/Application	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.IncomingMessageAgent/Application on managed thread 32	
+[2017-02-19 20:02:16.532 GMT    24	INFO   	100000	Runtime.Messaging.SiloMessageSender/PingSender	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.SiloMessageSender/PingSender on managed thread 24	
+[2017-02-19 20:02:16.416 GMT    14	INFO   	100000	Runtime.Scheduler.WorkerPoolThread/0	127.0.0.1:22222]	Starting AsyncAgent Runtime.Scheduler.WorkerPoolThread/0 on managed thread 14	
+[2017-02-19 20:02:16.749 GMT    28	INFO   	100000	Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1	127.0.0.1:22222]	Starting AsyncAgent Runtime.GrainDirectory.AdaptiveDirectoryCacheMaintainer`1 on managed thread 28	
+[2017-02-19 20:02:16.758 GMT    29	INFO   	100000	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer	127.0.0.1:22222]	Starting AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer on managed thread 29	
+[2017-02-19 20:02:16.759 GMT    23	INFO   	100328	Runtime.Messaging.IncomingMessageAcceptor	127.0.0.1:22222]	Stopping AsyncAgent Runtime.Messaging.IncomingMessageAcceptor that runs on managed thread 23	
+[2017-02-19 20:02:16.809 GMT    29	INFO   	100328	Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer	127.0.0.1:22222]	Stopping AsyncAgent Runtime.GrainDirectory.GlobalSingleInstanceActivationMaintainer that runs on managed thread 29	
+[2017-02-19 20:02:16.834 GMT    10	INFO   	100000	MembershipFactory	127.0.0.1:22222]	Creating membership oracle for type=MembershipTableGrain	
+[2017-02-19 20:02:16.840 GMT    10	INFO   	100000	MultiClusterOracleFactory	127.0.0.1:22222]	Skip multicluster oracle creation (no multicluster network configured)	
+[2017-02-19 20:02:16.848 GMT    10	INFO   	100000	ReminderFactory	127.0.0.1:22222]	Creating reminder system target for type=ReminderTableGrain	
+[2017-02-19 20:02:16.871 GMT    22	INFO   	100635	MembershipFactory	127.0.0.1:22222]	Creating membership table provider for type=MembershipTableGrain	
+[2017-02-19 20:02:16.892 GMT    20	INFO   	100637	GrainBasedMembershipTable	127.0.0.1:22222]	GrainBasedMembershipTable Activated.	
+[2017-02-19 20:02:16.901 GMT    22	INFO   	100507	Catalog	127.0.0.1:22222]	Before collection#1: memory=13MB, #activations=1, collector=<#Activations=0, #Buckets=0, buckets=[]>.	
+[2017-02-19 20:02:16.903 GMT    22	INFO   	100508	Catalog	127.0.0.1:22222]	After collection#1: memory=13MB, #activations=1, collected 0 activations, collector=<#Activations=0, #Buckets=0, buckets=[]>, collection time=00:00:00.0050114.	
+[2017-02-19 20:02:16.911 GMT    22	INFO   	103102	ProviderLoader/IStorageProvider	127.0.0.1:22222]	Loaded provider of type Orleans.Storage.MemoryStorage Name=MemoryStore	
+[2017-02-19 20:02:16.921 GMT    22	INFO   	0	Storage.MemoryStorage.1	127.0.0.1:22222]	Init: Name=MemoryStore NumStorageGrains=10	
+[2017-02-19 20:02:16.976 GMT    17	INFO   	100000	GrainBasedMembershipTable	127.0.0.1:22222]	InitializeMembershipTable True.	
+[2017-02-19 20:02:16.984 GMT    17	INFO   	100603	MembershipOracle	127.0.0.1:22222]	MembershipOracle starting on host = bigmack-PC address = S127.0.0.1:22222:225230535 at 2017-02-19 20:02:16.838 GMT, backOffMax = 00:00:20	
+[2017-02-19 20:02:18.212 GMT    22	INFO   	100652	MembershipOracle	127.0.0.1:22222]	-CleanupTable called on silo startup. Membership table 0 silos, 0 are Active, 0 are Dead, Version=<0, 0>. All silos: []	
+[2017-02-19 20:02:18.269 GMT    22	INFO   	100660	MembershipOracle	127.0.0.1:22222]	Starting IAmAliveUpdateTimer.	
+[2017-02-19 20:02:18.281 GMT    22	INFO   	100604	MembershipOracle	127.0.0.1:22222]	-BecomeActive	
+[2017-02-19 20:02:18.286 GMT    22	INFO   	100614	MembershipOracle	127.0.0.1:22222]	About to send pings to 0 nodes in order to validate communication in the Joining state. Pinged nodes = []	
+[2017-02-19 20:02:18.295 GMT    22	INFO   	100634	MembershipOracle	127.0.0.1:22222]	-ReadAll (called from BecomeActive) Membership table 1 silos, 1 are Active, 0 are Dead, Version=<2, 5>. All silos: [SiloAddress=S127.0.0.1:22222:225230535 SiloName=bigmack-PC Status=Active]	
+[2017-02-19 20:02:18.297 GMT    22	INFO   	100605	MembershipOracle	127.0.0.1:22222]	-Finished BecomeActive.	
+[2017-02-19 20:02:18.298 GMT    10	INFO   	100702	WindowsPerfCountersStatistics	127.0.0.1:22222]	Starting Windows perf counter stats collection with frequency=00:00:30	
+[2017-02-19 20:02:18.313 GMT    10	INFO   	100714	SiloPerformanceMetrics	127.0.0.1:22222]	Starting Silo Table metrics reporter with reportFrequency=00:00:30	
+[2017-02-19 20:02:18.316 GMT    22	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:22222]	Starting DeploymentLoadPublisher.	
+[2017-02-19 20:02:18.346 GMT    22	INFO   	100000	DeploymentLoadPublisher	127.0.0.1:22222]	Started DeploymentLoadPublisher.	
+[2017-02-19 20:02:18.348 GMT    10	INFO   	100000	Watchdog	127.0.0.1:22222]	Starting Silo Watchdog.	
+[2017-02-19 20:02:18.351 GMT    34	INFO   	100000	Runtime.Watchdog	127.0.0.1:22222]	Starting AsyncAgent Runtime.Watchdog on managed thread 34	
+[2017-02-19 20:02:18.352 GMT    22	INFO   	102925	ReminderService	127.0.0.1:22222]	Starting reminder system target on: S127.0.0.1:22222:225230535 x58DC8821, with range <MultiRange: Size=x100000000, %Ring=100.000%>	
+[2017-02-19 20:02:18.376 GMT    17	INFO   	100000	GrainBasedReminderTable_S127.0.0.1:22222:225230535*grn/FCB3F509/00003039@b4e9699e	127.0.0.1:22222]	GrainBasedReminderTable *grn/FCB3F509/00003039 Activated. Full identity: [ActivationAddress: S127.0.0.1:22222:225230535*grn/FCB3F509/00003039@b4e9699e, Full GrainId: [GrainId: *grn/FCB3F509/0000000000000000000000000000303903fffffffcb3f509-0xBB9ED002, IdCategory: Grain, BaseTypeCode: -55315191 (xFCB3F509), PrimaryKey: 12345 (x3039), UniformHashCode: 3147747330 (0xBB9ED002)], Full ActivationId: @48b4294a3064348d6da29960b4e9699e0000000000000000]	
+[2017-02-19 20:02:18.402 GMT    22	INFO   	102926	ReminderService	127.0.0.1:22222]	Reminder system target started OK on: S127.0.0.1:22222:225230535 x58DC8821, with range <MultiRange: Size=x100000000, %Ring=100.000%>	
+[2017-02-19 20:02:18.404 GMT    26	INFO   	100000	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.GatewayAcceptor on managed thread 26	
+[2017-02-19 20:02:18.425 GMT    27	INFO   	100000	Runtime.Messaging.GatewayClientCleanupAgent	127.0.0.1:22222]	Starting AsyncAgent Runtime.Messaging.GatewayClientCleanupAgent on managed thread 27	
+[2017-02-19 20:02:18.404 GMT    10	INFO   	100294	SystemStatus	127.0.0.1:22222]	SystemStatus=Running	
+[2017-02-19 20:02:18.510 GMT    26	INFO   	100328	Runtime.Messaging.GatewayAcceptor	127.0.0.1:22222]	Stopping AsyncAgent Runtime.Messaging.GatewayAcceptor that runs on managed thread 26	
+[2017-02-19 20:02:18.534 GMT    10	INFO   	100424	OrleansSiloHost	127.0.0.1:22222]	Silo startup event name: bigmack-PC	
+[2017-02-19 20:02:18.536 GMT    10	INFO   	100425	OrleansSiloHost	127.0.0.1:22222]	Created and set startup event bigmack-PC	
+[2017-02-19 20:02:18.537 GMT    10	INFO   	100402	OrleansSiloHost	127.0.0.1:22222]	Silo bigmack-PC started successfully	
+[2017-02-19 20:02:20.116 GMT    22	WARNING	101215	Scheduler.DeploymentLoadPublisherSystemTarget.WorkItemGroup	127.0.0.1:22222]	Task [Id=636, Status=RanToCompletion] in WorkGroup [SystemTarget: S127.0.0.1:22222:225230535DeploymentLoadPublisherSystemTarget@S00000016] took elapsed time 0:00:00.300281 for execution, which is longer than 00:00:00.2000000. Running on thread <Runtime.Scheduler.WorkerPoolThread/System.9, ManagedThreadId=22, Executing Task Id=636 Status=RanToCompletion for 00:00:00.3016105 on WorkItem=System*WorkItemGroup:Name=DeploymentLoadPublisherSystemTarget,WorkGroupStatus=Running Executing for 00:00:00.3020687. .>	
+[2017-02-19 20:02:20.460 GMT    40	INFO   	101301	Orleans.Messaging.Gateway	127.0.0.1:22222]	Recorded opened socket from endpoint 127.0.0.1:63814, client ID *cli/a952009e.	

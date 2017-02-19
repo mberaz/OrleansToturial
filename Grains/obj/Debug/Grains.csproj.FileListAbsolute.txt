@@ -1,0 +1,9 @@
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\GrainInterfaces.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\Orleans.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\Orleans.xml
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\obj\Debug\Grains.csprojResolveAssemblyReference.cache
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\Grains.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\Grains.pdb
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\bin\Debug\GrainInterfaces.pdb
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\obj\Debug\Grains.dll
+c:\users\bigmack\documents\visual studio 2015\Projects\SiloHost1\Grains\obj\Debug\Grains.pdb
